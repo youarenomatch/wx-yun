@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/shop/shop",
+    "pages/index/my/my",
+    "pages/index/search/search",
+    "pages/index/list/list",
+    "pages/index/details/details",
+    "pages/index/orders/orders",
+    "pages/index/address/address",
+    "pages/index/login/login",
+    "pages/index/regist/regist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "问答系统",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/a1.png",
+        "selectedIconPath": "images/a2.png"
+      },
+      {
+        "pagePath": "pages/index/list/list",
+        "text": "分类",
+        "iconPath": "images/a1.png",
+        "selectedIconPath": "images/a2.png"
+      },
+      {
+        "pagePath": "pages/index/shop/shop",
+        "text": "问题",
+        "iconPath": "images/a1.png",
+        "selectedIconPath": "images/a2.png"
+      },
+      {
+        "pagePath": "pages/index/my/my",
+        "text": "我的",
+        "iconPath": "images/a1.png",
+        "selectedIconPath": "images/a2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap81.json"
+}

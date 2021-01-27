@@ -1,0 +1,12 @@
+<!--pages/index/join/join.wxml-->
+<view>
+  <view class="top">
+   <image src="/images/touxiang.png"  class="img1"></image>
+      <view class="avator" bindtap="toLogin" wx:if="{{name==''}}">
+      注册登录
+    </view>
+      <view class="avator" wx:else>
+      {{name}}
+    </view>
+  </view>
+</view>

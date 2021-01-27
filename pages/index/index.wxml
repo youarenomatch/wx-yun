@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<input type="text" style="border:1rpx solid #ccc"  bindinput='formzhang'/>
+<input type="text" style="border:1rpx solid #ccc" bindinput='formpasswrod'/>
+<button bindtap="toregint">点击注册</button>
+<button bindtap="chaxun">查询数据</button>
+<button bindtap="gengxin">更新数据</button>
